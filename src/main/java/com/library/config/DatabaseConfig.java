@@ -18,9 +18,9 @@ public class DatabaseConfig {
     }
 
     public static Connection getConnection() throws SQLException {
-        String url = "jdbc:mysql://localhost:3306/library_management";
+        String url = "jdbc:mysql://localhost:3306/?";
         String user = "root"; //
-        String password = "mayanksql@123";
+        String password = "----";
 
         Connection connection = null;
 
