@@ -27,7 +27,7 @@ public class DatabaseConfig {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // Establish connection
+         
             connection = DriverManager.getConnection(url, user, password);
 
 //            if (connection != null) {
